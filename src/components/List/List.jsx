@@ -23,9 +23,8 @@ const List = ({ places, childClicked, isLoading, type, setType, rating, setRatin
     setElRefs(refs);
   }, [places]);
 
-
   return (
-    <div className={classes.container}>
+  <div className={classes.container}>
       <Typography variant="h4">
         Food & Dining around you
       </Typography>

@@ -17,9 +17,8 @@ import useStyles from "./styles";
 
 /* eslint-disable react/prop-types */
 const PlaceDetails = ({ place, selected, refProp }) => {
-  const classes = useStyles();
-
   if (selected) refProp?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  const classes = useStyles();
 
   return (
     <Card elevation={6}>
